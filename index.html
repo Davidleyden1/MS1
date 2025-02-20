@@ -57,8 +57,31 @@
                     <p>
                         Physiotherapy is a healthcare profession that helps people improve their movement and function after an injury, illness, or disability. Physiotherapists use a variety of techniques, including exercise, manual therapy, and electrotherapy. 
                     </p>
-                    <!-- mb-5 gives extra margin spacing under lead text -->
-                    <p class="lead mb-5">Get in touch to find out how we can help.</p>
+                    
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Get in touch to find out more.
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Contact on 07x-xxx-xxxxx</button>
+        </div>
+      </div>
+    </div>
+  </div>
                 </div>
             </section>
         </header>
@@ -94,11 +117,13 @@
                             suited to your needs and throughout our journey we will
                             maintain laser focused attention to ensure speedy recovery.
                         </p>
+    
                         <p>
                             Please get in touch to discuss whatever care needs you
                             may have so that we can get you back to where you 
                             want to be.
                         </p>
+                    
                     </div>
                 </div>
             </section>
@@ -108,7 +133,7 @@
                     <div class="col-12 text-center my-4">
                         <h2 class="display-5">Our Core Services</h2>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" id="physiotherapy-card">
                         <div class="card home-card">
                             <img class="card-img-top" src="assets/images/physiotherapy_image.jpg" alt="Physiotherapist Treating Back">
                             <div class="card-body">
@@ -133,7 +158,7 @@
                             <img class="card-img-top" src="assets/images/acupuncture_image.jpg" alt="Acupuncture needs in a back">
                             <div class="card-body">
                                 <h5 class="card-title">Acupuncture</h5>
-                                <p class="card-text">Acupuncture is suitable for pain relief, trigger point relief, treatment for general muscular tension, acute injuries, tendinopathies as well as a number of other problems.</p>
+                                <p class="card-text">Acupuncture is suitable for pain relief, trigger point relief, treatment for general muscular tension, acute injuries, tendinopathies as well as a number of other problems. A  proven method of pain relief.</p>
                                 <a href="#" class="btn btn-outline-secondary">Learn More</a>
                             </div>
                         </div>
@@ -150,6 +175,7 @@
                     </div> 
                 </div>
             </section>
+
             <footer id="contact" class="container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center my-4">
@@ -163,6 +189,8 @@
                   <div class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="exampleFormControlInput1">Contact Number</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="07x-xxx-xxxxx">
                   </div>
                   <div class="form-group">
                     <label for="exampleFormControlSelect1">Service Select</label>
