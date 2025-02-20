@@ -167,27 +167,32 @@
       <h2 class="display-5">Contact</h2>
       <p class="mt-4">Get in touch for any health needs that you may have.</p>
       <!--Form-->
-      <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-
-          <label for="exampleFormControlInput2">Contact Number</label>
-          <input type="phonenumber" class="form-control" id="exampleFormControlInput2" placeholder="07x-xxx-xxxxx">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Forename</label>
+          <input type="forename" class="form-control" id="inputforename4">
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Service Select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1 - Physiotherapy</option>
-            <option>2 - Sports Physiotherapy</option>
-            <option>3 - Acupuncture</option>
-            <option>4 - Shockwave Therapy</option>
-          </select>
+        <div class="col-md-6">
+          <label for="inputsurname4" class="form-label">Surname</label>
+          <input type="surname" class="form-control" id="inputsurname4">
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Provide brief overview of the treatment you need/service you are interested in</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button type="button" class="btn btn-secondary">Submit</button>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Contact Details</label>
+          <input type="text" class="form-control" id="inputcontactdetails" placeholder="Mobile Number, email address">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <label class="form-check-label" for="gridCheck">
+              Submit
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
       <div class="container mt-5 mb-5">
