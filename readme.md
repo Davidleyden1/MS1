@@ -1,4 +1,8 @@
-## Table of content
+Code Institute - Milestone project 1: User-Centric Frontend Development
+
+This website is designed to provide clients/prospective clients of a physiotherapy practice with information about the services provided at the practice as well as contact forms and information.
+
+### Table of content
 * [Introduction](#introduction)
 * [User experience](#user-experience)
 * [Design](#design)
@@ -22,11 +26,12 @@ David Leyden hysiotherapy is targeted at individuals seeking physiotherapy treat
   * I want to be able to contact the clinic and move towards arranging an appointment
 
 * Goals for a returning visitor 
-  * I want to remind myself of the physiotherapists skills
+  * I want to remind myself of the physiotherapists skills/services provided
   * I want to refamiliarise myself with the clinic
+  * I want to check contact details to contact the clinic
 
 * Goals for a frequent visitor  
-  * I want a quick overview to make sure nothing has changed with the service
+  * I want a quick overview to make sure nothing has changed with the service and to be abreast of new services offered. 
 
 * The website owner's goals
   * I want to attract new clients
@@ -193,11 +198,12 @@ The font family is from [Google Fonts](https://fonts.google.com/).
 
 The icons in the footer and in the benefits section, were taken from [Font Awesome](https://fontawesome.com/).
 
-The instructions under [Deployment](#deployment) were taken from the module *Love running -Essentials Project* and [GitHub Docs](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).  
+The instructions under [Deployment](#deployment) were taken from the module *Love running -Essentials Project* and [GitHub Docs](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop). 
+
 ### Media
 The images of the project on different devices, are created using a website called [Are you responsive?](https://ui.dev/amiresponsive)
 
 The rest of the images are all downloaded from [Freepik](https://www.freepik.com/).
 
 ### Acknowledgements
-A special thank you to my mentor for his advice, guidance and support. I also want to a friend (Alex) for helping me navigate through aspects of using Github Codespace. 
+A special thank you to my mentor for his advice, guidance and support. I also want to thank a friend (Alex) for helping me navigate through aspects of using Github Codespace. 
