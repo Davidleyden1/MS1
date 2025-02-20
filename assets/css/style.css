@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body { font-family: "monterrat", sans-serif;
 background-color: #42b9f5;
 }
+
 a:hover {
 font-size: x-large;
 }
+
 ul#medialinksli {
 display:inline;
 }
+
 .map {
     width: 100%;
     height: auto;
@@ -23,9 +27,11 @@ display:inline;
     color: antiquewhite;
     padding-top: 2rem;
 }
+
 .thefoot {
     background-color: #1e5571;
 }
+
 .social {
     display: flex;
     justify-content: center;
@@ -34,18 +40,22 @@ display:inline;
     margin: 20px auto;
     list-style: none;
 }
+
 .social li {
     display: inline-block;
 }
+
 .social a {
     text-decoration: none;
     font-size: 2rem;
     color: antiquewhite;
     transition: color 0.4s;
 }
+
 .social a:hover {
     color: #333;
 }
+
 #hero {
 background-color: lightgray;
 background-image: url(https://hssh.health/wp-content/uploads/2021/10/AdobeStock_257007919.jpeg);
@@ -53,60 +63,75 @@ background-size: cover;
 width: 100%;
 height: auto;
 }
+
 #about {
 background-color: #96d7eb;
 }
+
 #portfolio {
 background-color: #96d7eb;
 }
+
 #contact {
 background-color: #96d7eb;
 }
+
 #physiotherapy-card {
 margin-bottom: 10px;
 margin-top: auto;
 }
+
 .wrap-container {
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
 }
+
 .home-card {
 width: 18rem;
 margin: 0 auto;
 margin-bottom: 10px;
 }
+
 .contact {
 margin-bottom: 10px;
 }
+
 .card-img, .card-img-bottom, .card-img-top {
 max-height: 175px;
 width: 100%;
 }
+
 .navbar-brand {
-font-size: 0.8rem;
-}
+    font-size: 0.8rem;
+    }
+
 @media(min-width: 400px) {
 .navbar-brand {
 font-size: 1rem;
 }
 }
+
 @media(min-width: 600px) {
 .navbar-brand {
 font-size: 1.3rem;
 }
 }
+
 #hero{
 margin-top: 20px;
 }
+
 #about {
 margin-bottom: 20px;
 margin-top: 20px;
 }
+
 #portfolio{
 margin-bottom: 20px;
 margin-top: 20px;
 }
+
 #contact{
 margin-bottom: 20px;
 margin-top: 20px;
