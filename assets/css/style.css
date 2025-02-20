@@ -8,6 +8,10 @@ body { font-family: "monterrat", sans-serif;
         font-size: x-large;
     }
 
+    ul#medialinksli {
+        display:inline;
+    }
+
 #hero {
     background-color: lightgray;
     background-image: url(https://hssh.health/wp-content/uploads/2021/10/AdobeStock_257007919.jpeg);
