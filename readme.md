@@ -40,8 +40,7 @@ The design of the website is divided into three separate areas for easy navigati
 
 ### Wireframes
 The layout of the website was initially sketched on a piece of paper. A wireframe of each page was then created in
-[Balsamiq](https://balsamiq.com/).
-#### ***Home page***
+
 ![Homepage](assets/images/WireframeHome.png)
 #### ***Gallery page***
 ![Gallery](assets/images/WireframeGallery.png)
@@ -51,51 +50,44 @@ The layout of the website was initially sketched on a piece of paper. A wirefram
 ![Success](assets/images/WireframeSuccess.png)
 
 ### Fonts and colour theme
-The font that was chosen was Lora, with Serif as a backup.
+The font that was chosen was Montserrat, with Serif as a backup.
 
-![First image](assets/images/52867.sm.jpg)
+![First image](assets/images/hero_physiotherapy_image.jpg)
 
-The image on top of the home page was selected first. By using [Colorpicker](https://imagecolorpicker.com/en) a color palette was created based on the colors in the image.
+The image at the top of the home page was selected first. By using [Colorpicker](https://imagecolorpicker.com/en) a color palette was created based on the colors in the image.
  
- ![Colour palette](assets/images/colourspalette.png)
+ 
  
  From the color palette, four colors was choosen as a color theme.
 
- 1. Petrol #516c72
- 2. Dark brown #42352c
- 3. Light blue-grey #a3acb9
- 4. Light greyish #9d8b86
+ 1. Light Blue    #96d7eb
+ 2. Light Grey    #D3D3D3
+ 
 
  ### Images
- All images are downloaded from [Freepik](https://www.freepik.com/). They were all selected to match the content of the website as well as the color theme. All images are downsized to fit the purpose of the website.
-
-
- The logo was created by [ChatGPT](https://chatgpt.com/).  
- ![C&CLogo](assets/images/c&clogo.jpg)
-
- A [Favicon](https://favicon.io/) was created based on the letters C and C with the color theme in mind. 
+ All images are downloaded from [Freepik](https://www.freepik.com/). The images were selected to match the content of the website and images wtih similar colour profiles were chosen to help with website cohesion. 
 
  ### Text
- The five reasons to do crochet, were also created by [ChatGPT](https://chatgpt.com/). The rest of the text was written by the author.
+ The text in the portfolio section was written by the author.
 
  ## Features
  ### Navigation bar
- ![Navigationbar](assets/images/navigationbar.png)
 
-The navigation bar is located at the top of every page. In the navigation bar, you can find links to the sections ***Home, Gallery*** and the ***Join Us*** form. On the left - hand side, there is a Coffee & Crochet logo that takes visitors back to the top of the home page. On devices with a width of 768px or less, the menu is changed to a hamburger dropdown menu.
+
+The navigation bar is located at the top of every page. In the navigation bar, you can find links to the sections ***Home, About*** and the ***Contact*** form. On the left - hand side, there David Leyden Physiotherapy text that forms a heading for the webpage. On devices with a width of 575px or less, the menu is changed to a hamburger dropdown menu.
 
 ### Footer
-In the footer there are social media icons. By clicking on the icons the visitor is being linked to Coffee & Crochet's *Facebook, Twitter, YouTube* or *Instagram*. The links open in a new tab.
+In the footer there are social media icons. By clicking on the icons the visitor is being linked to  *Facebook, Twitter, or *Email*. The links open in a new tab.
 
 ### Form
-By clicking on the button ***Join Us*** in the navigation bar, visitors access a form. To submit the form, *Name, Email*, and *Phone* need to be filled in correctly. A confirmation page appears when the form has been successfully submitted. This page contains a button that takes the visitor back to the homepage when clicked.
+By clicking on the button ***Contact Us*** in the navigation bar, visitors access a form. To submit the form, *Email, contact number*, and *service requested* *additional information* need to be filled in correctly.
 
 ### Future features
 Some ideas about the future:
-*  to expand and have meetups in other citys nearby.
-* to add meetups for other type of needlework such as knitting.
-* to share patterns online.
-* to add tutorials to the website
+*  to provide a link to directly book appointments
+*  to add a section with past customer reviews.
+*  to provide a section outlining prices
+*  to add a blog section to the website
 
 ## Technologies Used
 ### Languages
@@ -104,17 +96,13 @@ Some ideas about the future:
 
 ### Frameworks & Tools
 * [Am I responsive?](https://ui.dev/amiresponsive) 
-* [Balsamiq](https://balsamiq.com/)
 * [Bootstrap v5.3](https://getbootstrap.com/)
 * [Colorpicker](https://imagecolorpicker.com/)
-* [ChatGPT](https://chatgpt.com/)
-* [Favicon.io](https://favicon.io/)
 * [Font Awesome](https://fontawesome.com/)
 * [Freepik](https://www.freepik.com/)
-* [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
-* [Gitpod](https://www.gitpod.io/)
 * [Google Fonts](https://fonts.google.com/)
+* [Visual StFudio Code](https://code.visualstudio.com/)
 
 
 ## Testing
@@ -131,27 +119,6 @@ Some ideas about the future:
  
 ### Responsiveness
 The website has been tested on several devices, mobiles, tablets and laptops. It responds as expected on all tested screen sizes. The same applies to different browsers such as Chrome, Microsoft Edge and Safari. 
-### User stories
-Each user story was tested as follows:
-
-| User story    | Steps |  |Result|
-| ------------- | ------|----------------- | -----|
-|I want to know what happens at the meetups| In the introduction you can read what happens at the meetups. People are drinking coffee, socialising and doing crochet. Thery are also exchanging patterns, yarn and experiances.|      | Achieved
-| I want to know when and where the meetups take place| At the buttom of the homepage there is a section called Meetup Times. Here the visitor can read when and where the meetups is scheduled.|     | Achieved     |
-|I want to know why I should join this community   | Five benefits with crocheting are written in the section *Why crochet?* This is five reasons why the visitor should join the community. |    | Achieved
-| I want to know if I need to be a professional crocheter to join. | In the introduction it clearly states that everyone is welcome regardless of prior experiance of crocheting.|  | Achieved|
-| I want to easily navigate on the website | On top of each page there is a navigation bar. The visitor is linked to the desired section by clicking on it in the navigation bar.|    |Achieved|
-| I want to easily check what time the meetup is scheduled for a specific day| In the section *Meetup Times*, the visitor find time and location for the meetups.|  | Achieved|
-| I want to see images from previous meetups. | There is a Gallery page filled with images from prior meetups.|   | Achieved|
-| I want a quick overview to ensure that no changes have been made.| Time and location are easily to find on the buttom of the home page.|    | Achieved|
-
-|The website owner's goal | Steps  | Result |
-| -------- | ------- |---------|
-| I want to build a community for the people in the area who crochet.  | In the introduction it says that everyone in the area, is welcome.  |  Achieved
-| I want to encourage people to crochet. | The stated benefits to do crochet, and the images is the Gallery are meant to inspire people to crochet. | Achieved
-| I want to support the local Cafés.| By having the meetups at the local cafés, it contributes to their business.| Achieved
-| I want to spread knowledge about crocheting.| By sharing several benefits with needle work, knowledge is being spread.| Achieved|
-| I want to make use of patterns and yarn that aren't being used.| At the meetups people are encouraged to exchange patterns and yarn.|Achieved|
 
 
 ### Manual testing
@@ -179,9 +146,7 @@ The Join Us form and all links on all the pages have been tested. The results we
 | Return to homepage -button | When clicking the button, the visitor returns to the home page|Works as expected|
 
 ### Bugs
-One bug that was discovered during the project concerned the navigation bar. At this point, the navigation bar included a link to the section ***Meetup Times***. The link worked fine while the visitor was on the home page, however, if the visitor clicked the link on any of the other pages, it did not work as expected . 
 
-The bug was resolved by removing ***Meetup Times*** from the navigation bar.
 
 ### Unfixed bugs
 All identified bugs were resolved.
@@ -189,7 +154,7 @@ All identified bugs were resolved.
 ## Deployment
 
 ### Version Control
-The website was created using Gitpod, and pushed to GitHub to the remote repository. Througout the project the following git commands were used,
+The website was created using VS Code and pushed to GitHub to the remote repository. Througout the project the following git commands were used,
 * **Git add .** *-Adds a change in the working directory to the staging area.*
 * **Git commit -m "message"** *-Commits changes to the local repository.*
 * **Git push** *-Uploads the commited changes to the remote repository in Github.*
@@ -207,7 +172,7 @@ The website was created using Gitpod, and pushed to GitHub to the remote reposit
 6. On the right-hand side, in the Environments section, click on **'github-pages'**.
 7. Click **View deployment** to see the live site.
 
-The link to the live website: [Coffee & Crochet](https://emelie-nilsson.github.io/Milstone-project1/)
+The link to the live website: [David Leyden Physiotherapy](https://emelie-nilsson.github.io/Milstone-project1/)
 
 ### How to clone the repository
 1. From the list of repositories, click the repository you want to clone. 
@@ -232,8 +197,7 @@ The instructions under [Deployment](#deployment) were taken from the module *Lov
 ### Media
 The images of the project on different devices, are created using a website called [Are you responsive?](https://ui.dev/amiresponsive)
 
-The logo is made by [ChatGPT](https://chatgpt.com/) and the favicon by [Favicon](https://favicon.io/).
-
 The rest of the images are all downloaded from [Freepik](https://www.freepik.com/).
+
 ### Acknowledgements
-A special thank you to my mentor for his advice, guidance and support. I also want to thank my brother for his patience and his feedback.
+A special thank you to my mentor for his advice, guidance and support. I also want to a friend (Alex) for helping me navigate through aspects of using Github Codespace. 
