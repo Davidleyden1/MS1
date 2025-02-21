@@ -1,5 +1,6 @@
 Code Institute - Milestone project 1: User-Centric Frontend Development
 
+
 This website is designed to provide clients/prospective clients of a physiotherapy practice with information about the services provided at the practice as well as contact forms and information.
 
 ### Table of content

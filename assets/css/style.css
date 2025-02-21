@@ -106,6 +106,17 @@ width: 100%;
     font-size: 0.8rem;
     }
 
+.form-group {
+    display: -ms-flexbox; 
+  display: flex;
+  max-width: 600px;
+  min-width: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: auto
+}
+
+
 @media(min-width: 400px) {
 .navbar-brand {
 font-size: 1rem;
