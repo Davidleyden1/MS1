@@ -110,7 +110,6 @@ width: 100%;
     display: -ms-flexbox; 
   display: flex;
   max-width: 600px;
-  min-width: none;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: auto
