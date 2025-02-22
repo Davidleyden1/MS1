@@ -111,17 +111,16 @@ Some ideas about the future:
 * [Freepik](https://www.freepik.com/)
 * [GitHub](https://github.com/)
 * [Google Fonts](https://fonts.google.com/)
-* [Visual StFudio Code](https://code.visualstudio.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 
 ## Testing
 ### Validation
-* [HTML Validator](https://validator.w3.org/) has been used frequently throughout the project. Syntax errors have been identified and resolved. Before submission, no errors were found.
-![HTML Validator](assets/images/screenshot_2024-11-07_at_19.04.26.png)
-![HTML Validator](assets/images/screenshot_2024-11-07_at_19.04.56.png)
-![HTML Validator](assets/images/screenshot_2024-11-07_at_19.05.27.png)
+* [Web Accessability evaluation tool](https://wave.webaim.org) has been used frequently throughout the project. Syntax errors have been identified and resolved. Before submission, no errors were found.
+![HTML Validator](assets/images/screenshot(17))
+![HTML Checker](assets/images/screenshot(19).png)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) has also frequently been used. Every identified error was corrected prior to submission.
-![Validator](assets/images/screenshot_2024-11-07_at_19.06.04.png)
+![Validator](assets/images/screenshot(18).png)
 * Lighthouse testing show good results for speed, accessibility, and SEO.
 
 ![Lighthouse results](assets/images/screenshot_2024-11-07_at_19.11.35.png)
@@ -136,25 +135,20 @@ The Join Us form and all links on all the pages have been tested. The results we
 | What's being tested   | Expected outcome |Actual outcome
 | -------- | ------- |-------|
 | **Navigation bar**  |   |
-| C&C logo | By clicking the logo the visitor will return to the top of the home page  |Works as expected
+| David Leyden Physiotherapy | By clicking the name in the top left corner the visitor will return to the top of the home page  |Works as expected
 | Home   | By clicking **Home** in the navigation bar, the visitor will return to the top of the home page   |Works as expected
-| Gallery | By clicking on **Gallery** the visitor will get to the gallery page |Works as expected|
-| Join us | By clicking **Join us** the visitors get to av form |Works as expected|
+| About | By clicking on **About** the visitor will get to the section of the page detailing the therapists qualifications and skills provided.
+| Portfolio | By clicking **Portfolio** the visitors move towards a section of the page detailing treatments provided 
 |   |   |   |
 | **Footer** |     |    |
-| Facebook | By clicking the Facebook icon, Coffee & Crochet's facebook page opens up in a new tab |Works as expected|
-| Twitter | By clicking the Twitter icon, Coffee & Crochet's twitter page opens up in a new tab |Works as expected |
-| YouTube | By clicking the YouTube icon, Coffee & Crochet's YouTube channel opens up in a new tab |Works as expected |
-| Instagram | By clicking the Instagram icon, Coffee & Crochet's instagram opens up in a new tab |Works as expected|
-|      |     |    |
-| **Join Us form** |     |    |
-| Name | The visitor needs to fill in a name to be able to submit the form |Works as expected|
-| Email | The visitor needs to fill in an email that includes an @ to submit the form |Works as expected|
-| Phone number| An number combination needs to be filled in to subit the form |Works as expected|
-| Submit -button | When the button is being pushed, the form is being submitted and a confirmation page appears |Works as expected|
-| Return to homepage -button | When clicking the button, the visitor returns to the home page|Works as expected|
+| Facebook | By clicking the Facebook icon, David Leyden Physiotherapy facebook page opens up in a new tab |Works as expected|
+| Instagram | By clicking the Instagram icon  Leyden Physiotherapy twitter page opens up in a new tab |Works as expected |
+| Email | By clicking the Email icon, David Leyden Physiotherapy email details opens up in a new tab |Works as expected |
+
 
 ### Bugs
+Bugs within the modal were discovered as an old version of bootstrap was used to upload a modal which resulted in error. When this was discovered a new version of the form was used to good effect.
+An inline style was used to try and alter the appearance of a header however this led to bugs which were addressed by using external CSS to enact the stye changes. 
 
 
 ### Unfixed bugs
@@ -210,4 +204,4 @@ The images of the project on different devices, are created using a website call
 The rest of the images are all downloaded from [Freepik](https://www.freepik.com/).
 
 ### Acknowledgements
-A special thank you to my mentor for his advice, guidance and support. I also want to thank a friend (Alex) for helping me navigate through aspects of using Github Codespace. 
+A special thank you to my mentor for his invaluable advice, guidance and support. I also want to thank a friend (Alex) for helping me navigate through aspects of using Github Codespace, reviewing work and providing some fantastic feedback. I would like to thank my family for supporting me through some of the challenges encountered during this project. 
