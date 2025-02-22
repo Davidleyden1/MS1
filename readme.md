@@ -1,5 +1,8 @@
 Code Institute - Milestone project 1: User-Centric Frontend Development
 
+![First image](assets/Amiresponsive.jpeg)
+
+The website is live and can be accessed at: https://davidleyden1.github.io/MS1/
 
 This website is designed to provide clients/prospective clients of a physiotherapy practice with information about the services provided at the practice as well as contact forms and information.
 
@@ -14,7 +17,7 @@ This website is designed to provide clients/prospective clients of a physiothera
 * [Credits](#credits)
 
 ## Introduction
-David Leyden hysiotherapy is targeted at individuals seeking physiotherapy treatment. The aim of this website is to provide information about the lead physiotherapist, the services provided. Another aim of the website is to allow people to get in touch via a form that could in time be linked to a booking system.
+David Leyden Physiotherapy is targeted at individuals seeking physiotherapy treatment. The aim of this website is to provide information about the lead physiotherapist, the services provided. Another aim of the website is to allow people to get in touch via a form that could in time be linked to a booking system.
 
 ## User experience
 ### User story
@@ -28,7 +31,7 @@ David Leyden hysiotherapy is targeted at individuals seeking physiotherapy treat
 
 * Goals for a returning visitor 
   * I want to remind myself of the physiotherapists skills/services provided
-  * I want to refamiliarise myself with the clinic
+  * I want to re-familiarise myself with the clinic
   * I want to check contact details to contact the clinic
 
 * Goals for a frequent visitor  
@@ -39,10 +42,10 @@ David Leyden hysiotherapy is targeted at individuals seeking physiotherapy treat
   * I want to inform clients of services provided.
   * I want to ensure clients can contact me and make steps towards booking
   * I want to get across that this is professional clinic
-  * I want to ensure customers can access our online presnce
+  * I want to ensure customers can access our online presence
 
-## Designgit
-The design of the website is divided into three separate areas for easy navigation. The upper section is the About section, which details professional qualifications and what clients can expect from the service. The second section is a portfolio section which highlights some of the main treatments provided. This helps clients to better unstand services offered and what they entail. The third and final section is a form section which allows clients to contact the clinic as a step towards arranging appointments.
+## Design
+The design of the website is divided into three separate areas for easy navigation. The upper section is the About section, which details professional qualifications and what clients can expect from the service. The second section is a portfolio section which highlights some of the main treatments provided. This helps clients to better understand services offered and what they entail. The third and final section is a form section which allows clients to contact the clinic as a step towards arranging appointments.
 
 ### Wireframes
 The layout of the website was initially sketched on a piece of paper. A wireframe of each page was then created in
@@ -64,14 +67,14 @@ The image at the top of the home page was selected first. By using [Colorpicker]
  
  
  
- From the color palette, four colors was choosen as a color theme.
+ From the color palette, four colors was chosen as a color theme.
 
  1. Light Blue    #96d7eb
  2. Light Grey    #D3D3D3
  
 
  ### Images
- All images are downloaded from [Freepik](https://www.freepik.com/). The images were selected to match the content of the website and images wtih similar colour profiles were chosen to help with website cohesion. 
+ All images are downloaded from [Freepik](https://www.freepik.com/). The images were selected to match the content of the website and images with similar colour profiles were chosen to help with website cohesion. 
 
  ### Text
  The text in the portfolio section was written by the author.
@@ -160,7 +163,7 @@ All identified bugs were resolved.
 ## Deployment
 
 ### Version Control
-The website was created using VS Code and pushed to GitHub to the remote repository. Througout the project the following git commands were used,
+The website was created using VS Code and pushed to GitHub to the remote repository. Throughout the project the following git commands were used,
 * **Git add .** *-Adds a change in the working directory to the staging area.*
 * **Git commit -m "message"** *-Commits changes to the local repository.*
 * **Git push** *-Uploads the commited changes to the remote repository in Github.*
@@ -178,7 +181,7 @@ The website was created using VS Code and pushed to GitHub to the remote reposit
 6. On the right-hand side, in the Environments section, click on **'github-pages'**.
 7. Click **View deployment** to see the live site.
 
-The link to the live website: [David Leyden Physiotherapy](https://emelie-nilsson.github.io/Milstone-project1/)
+The link to the live website: [David Leyden Physiotherapy](https://davidleyden1.github.io/MS1/)
 
 ### How to clone the repository
 1. From the list of repositories, click the repository you want to clone. 
@@ -197,7 +200,7 @@ All code is inspired by various lessons and modules in Code Institute's LMS (Lea
 ### Content
 The font family is from [Google Fonts](https://fonts.google.com/).
 
-The icons in the footer and in the benefits section, were taken from [Font Awesome](https://fontawesome.com/).
+The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 The instructions under [Deployment](#deployment) were taken from the module *Love running -Essentials Project* and [GitHub Docs](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop). 
 

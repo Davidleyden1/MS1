@@ -21,6 +21,7 @@ display:inline;
 
 .btn-outline-secondary {
     color: #333;
+    margin-top: 20px;
 }
 
 .connect {
@@ -57,7 +58,7 @@ display:inline;
 }
 
 #hero {
-background-color: lightgray;
+background-color: rgba(0, 0, 225, 0.2);
 background-image: url(https://hssh.health/wp-content/uploads/2021/10/AdobeStock_257007919.jpeg);
 background-size: cover;
 width: 100%;
@@ -114,7 +115,6 @@ width: 100%;
   flex-wrap: wrap;
   margin: auto
 }
-
 
 @media(min-width: 400px) {
 .navbar-brand {

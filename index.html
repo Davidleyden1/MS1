@@ -167,7 +167,7 @@
       <h2 class="display-5">Contact</h2>
       <p class="mt-4">Get in touch for any health needs that you may have.</p>
       <!--Form-->
-      <form>
+      <form onsubmit="event.preventDefault()">
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -187,7 +187,7 @@
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Provide brief overview of the treatment you need/service you are interested in</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button type="button" class="btn btn-secondary">Submit</button>
+          <button type="submit" class="btn btn-secondary">Submit</button>
         </div>
       </form>
       <div class="container mt-5 mb-5">
