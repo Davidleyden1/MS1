@@ -48,15 +48,10 @@ David Leyden Physiotherapy is targeted at individuals seeking physiotherapy trea
 The design of the website is divided into three separate areas for easy navigation. The upper section is the About section, which details professional qualifications and what clients can expect from the service. The second section is a portfolio section which highlights some of the main treatments provided. This helps clients to better understand services offered and what they entail. The third and final section is a form section which allows clients to contact the clinic as a step towards arranging appointments.
 
 ### Wireframes
-The layout of the website was initially sketched on a piece of paper. A wireframe of each page was then created in
+The layout of the website was initially sketched on a piece of paper. 
 
-![Homepage](assets/images/WireframeHome.png)
-#### ***Gallery page***
-![Gallery](assets/images/WireframeGallery.png)
-#### ***Join us page***
-![Join Us](assets/images/WireframeJoinus.png)
-#### ***Success page***
-![Success](assets/images/WireframeSuccess.png)
+![Homepage](assets/images/wireframe.jpg)
+
 
 ### Fonts and colour theme
 The font that was chosen was Montserrat, with Serif as a backup.
@@ -137,8 +132,8 @@ The Join Us form and all links on all the pages have been tested. The results we
 | **Navigation bar**  |   |
 | David Leyden Physiotherapy | By clicking the name in the top left corner the visitor will return to the top of the home page  |Works as expected
 | Home   | By clicking **Home** in the navigation bar, the visitor will return to the top of the home page   |Works as expected
-| About | By clicking on **About** the visitor will get to the section of the page detailing the therapists qualifications and skills provided.
-| Portfolio | By clicking **Portfolio** the visitors move towards a section of the page detailing treatments provided 
+| About | By clicking on **About** the visitor will get to the section of the page detailing the therapists qualifications and skills provided. |Works as expected
+| Portfolio | By clicking **Portfolio** the visitors move towards a section of the page detailing treatments provided |Works as expected
 |   |   |   |
 | **Footer** |     |    |
 | Facebook | By clicking the Facebook icon, David Leyden Physiotherapy facebook page opens up in a new tab |Works as expected|
