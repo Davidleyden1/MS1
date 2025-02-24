@@ -123,7 +123,7 @@ Some ideas about the future:
 ![Validator](assets/images/screenshot(18).png)
 * Lighthouse testing show good results for speed, accessibility, and SEO.
 
-![Lighthouse results](assets/images/screenshot_2024-11-07_at_19.11.35.png)
+![Lighthouse results](assets/images/lighthouse.png)
  
 ### Responsiveness
 The website has been tested on several devices, mobiles, tablets and laptops. It responds as expected on all tested screen sizes. The same applies to different browsers such as Chrome, Microsoft Edge and Safari. 
